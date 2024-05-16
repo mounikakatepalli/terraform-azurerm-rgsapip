@@ -1,2 +1,10 @@
 # terraform-azurerm-rgsapip
-This Module is for rg, sa and pip
+
+module "sa" {
+source = //terraform-azurerm-rgsapip
+saname="saderty"
+rgname="modrg"
+loc="east us"
+act="Standard"
+rt="GRS"
+}
